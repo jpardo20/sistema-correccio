@@ -1,0 +1,26 @@
+[
+  {
+    "id": "README",
+    "name": "Control fitxer README.md",
+    "path": "README.md",
+    "type": "markdown"
+  },
+  {
+    "id": "MER_GRUP",
+    "name": "Control MER grup",
+    "path": "MER.drawio",
+    "type": "diagram"
+  },
+  {
+    "id": "MER_INDIVIDUAL",
+    "name": "Control MER individual",
+    "path": "{unit}/mer_{unit}.drawio",
+    "type": "diagram"
+  },
+  {
+    "id": "SQL",
+    "name": "Control fitxer SQL",
+    "path": "sql/schema.sql",
+    "type": "sql"
+  }
+]

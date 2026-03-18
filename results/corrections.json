@@ -1,0 +1,153 @@
+{
+  "abe-galan-gestio-incidencies": {
+    "__group__": {
+      "MER_GRUP": {
+        "score": 10.0,
+        "max_score": 10,
+        "comment": "Molt bona feina!",
+        "structure_status": "OK_LOCATION",
+        "files_png": [
+          "../00-repos-alumnes/abe-galan-gestio-incidencies/docs/abe-galan-gestio-incidencies-mer.png"
+        ],
+        "files_xml": [
+          "../00-repos-alumnes/abe-galan-gestio-incidencies/docs/abe-galan-gestio-incidencies-mer.xml"
+        ],
+        "timestamp": "2026-03-18T19:20:05"
+      }
+    },
+    "abe": {
+      "MER_INDIVIDUAL": {
+        "score": 10.0,
+        "max_score": 10,
+        "comment": "Molt bona feina!",
+        "structure_status": "OK_LOCATION",
+        "files_png": [
+          "../00-repos-alumnes/abe-galan-gestio-incidencies/abe-mer/abe-mer.png"
+        ],
+        "files_xml": [
+          "../00-repos-alumnes/abe-galan-gestio-incidencies/abe-mer/abe-mer.xml"
+        ],
+        "timestamp": "2026-03-18T19:20:10"
+      },
+      "README": {
+        "score": 10.0,
+        "comment": "Molt bona feina!"
+      },
+      "SQL": {
+        "score": 9.0,
+        "comment": "Bona feina!"
+      }
+    },
+    "galan": {
+      "README": {
+        "score": 10.0,
+        "max_score": 10,
+        "comment": "Molt bona feina!",
+        "timestamp": "2026-03-18T22:37:18"
+      },
+      "MER_INDIVIDUAL": {
+        "score": 10.0,
+        "max_score": 10,
+        "comment": "Molt bona feina!",
+        "structure_status": "OK_LOCATION",
+        "files_png": [
+          "../00-repos-alumnes/abe-galan-gestio-incidencies/galan-mer/galan-mer.png"
+        ],
+        "files_xml": [
+          "../00-repos-alumnes/abe-galan-gestio-incidencies/galan-mer/galan-mer.xml"
+        ],
+        "timestamp": "2026-03-18T22:37:23"
+      },
+      "SQL": {
+        "score": 9.0,
+        "max_score": 10,
+        "comment": "Bona feina!",
+        "structure_status": "WRONG_LOCATION",
+        "files": [
+          "../00-repos-alumnes/abe-galan-gestio-incidencies/docs/abe-galan-gestio-incidencies-create-table copy.sql",
+          "../00-repos-alumnes/abe-galan-gestio-incidencies/docs/database.sql"
+        ],
+        "timestamp": "2026-03-18T23:31:41",
+        "analysis": {
+          "selected_file": "../00-repos-alumnes/abe-galan-gestio-incidencies/docs/abe-galan-gestio-incidencies-create-table copy.sql",
+          "tables_detected": [
+            "CLIENTS",
+            "INVENTARI",
+            "PROVEIDORS",
+            "INCIDENCIES",
+            "HISTORIAL",
+            "TECNICS"
+          ],
+          "tables_count": 6,
+          "primary_keys_count": 6,
+          "foreign_keys_count": 5,
+          "estimated_score": 9,
+          "candidates": [
+            {
+              "file": "../00-repos-alumnes/abe-galan-gestio-incidencies/docs/abe-galan-gestio-incidencies-create-table copy.sql",
+              "tables": [
+                "CLIENTS",
+                "INVENTARI",
+                "PROVEIDORS",
+                "INCIDENCIES",
+                "HISTORIAL",
+                "TECNICS"
+              ],
+              "primary_keys_count": 6,
+              "foreign_keys_count": 5,
+              "estimated_score": 10
+            },
+            {
+              "file": "../00-repos-alumnes/abe-galan-gestio-incidencies/docs/database.sql",
+              "tables": [
+                "CLIENTS",
+                "INVENTARI",
+                "PROVEIDORS",
+                "INCIDENCIES",
+                "HISTORIAL",
+                "TECNICS"
+              ],
+              "primary_keys_count": 6,
+              "foreign_keys_count": 5,
+              "estimated_score": 10
+            }
+          ]
+        },
+        "mr_sql_consistency": {
+          "mr_file": "../00-repos-alumnes/abe-galan-gestio-incidencies/docs/abe-galan-gestio-incidencies-mr.xml",
+          "mr_status": "OK",
+          "mr_tables": [
+            "CLIENT",
+            "HISTORIAL",
+            "INCIDENCIA",
+            "INVENTARI",
+            "PROVEIDORS",
+            "TÉCNIC"
+          ],
+          "sql_tables": [
+            "CLIENTS",
+            "HISTORIAL",
+            "INCIDENCIES",
+            "INVENTARI",
+            "PROVEIDORS",
+            "TECNICS"
+          ],
+          "matching_tables": [
+            "CLIENTS",
+            "HISTORIAL",
+            "INVENTARI",
+            "PROVEIDORS",
+            "TECNICS"
+          ],
+          "missing_in_mr": [
+            "INCIDENCIES"
+          ],
+          "extra_in_mr": [
+            "INCIDENCIA"
+          ],
+          "score": 8
+        }
+      }
+    }
+  }
+}

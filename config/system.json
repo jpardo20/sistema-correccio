@@ -1,0 +1,5 @@
+{
+  "repos_base_path": "../00-repos-alumnes",
+  "results_path": "results",
+  "corrections_file": "results/corrections.json"
+}

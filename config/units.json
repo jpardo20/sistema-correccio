@@ -1,0 +1,16 @@
+{
+  "abe": {
+    "name" :"Lex",
+    "last_name1":"Abe",
+    "last_name2":"",
+    "type": "student",
+    "repo": "abe-galan-gestio-incidencies"
+  },
+  "galan": {
+    "name" :"Juan Manuel",
+    "last_name1":"Galan",
+    "last_name2":"",
+    "type": "student",
+    "repo": "abe-galan-gestio-incidencies"
+  }
+}
