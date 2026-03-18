@@ -1,0 +1,30 @@
+[
+  {
+    "id": "README",
+    "name": "Documentació del projecte",
+    "path": "README.md",
+    "type": "markdown",
+    "max_score": 1
+  },
+  {
+    "id": "MER_GRUP",
+    "name": "MER del grup",
+    "path": "MER.drawio",
+    "type": "diagram",
+    "max_score": 2
+  },
+  {
+    "id": "MER_INDIVIDUAL",
+    "name": "MER individual",
+    "path": "{unit}/mer_{unit}.drawio",
+    "type": "diagram",
+    "max_score": 2
+  },
+  {
+    "id": "SQL",
+    "name": "Script SQL",
+    "path": "sql/schema.sql",
+    "type": "sql",
+    "max_score": 2
+  }
+]
